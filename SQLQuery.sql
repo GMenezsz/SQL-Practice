@@ -33,7 +33,7 @@ p.FirstName,
 p.LastName,
 h.JobTitle,
 e.EmailAddress
-FROM Person.Person AS p
+FROM person.Person AS p
 INNER JOIN HumanResources.Employee AS h
 	ON p.BusinessEntityID = h.BusinessEntityID 
 INNER JOIN Person.EmailAddress AS e
