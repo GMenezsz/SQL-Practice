@@ -27,6 +27,18 @@ Conceitos praticados:
 - GROUP BY
 - Análise de produtos
 - Métricas por categoria
+
+### EX003
+Conceitos praticados:
+- SELECT
+- WHERE
+- ORDER BY
+- INNER JOIN
+- GROUP BY
+- COUNT()
+- MAX()
+- MIN()
+- AVG()
  
 ## Tecnologias
  
