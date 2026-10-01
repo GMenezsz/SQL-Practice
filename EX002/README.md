@@ -1,4 +1,4 @@
-# SQL Studies - AdventureWorks
+# 📚  SQL Studies - AdventureWorks
  
 Estudos de SQL Server utilizando o banco AdventureWorks.
  
