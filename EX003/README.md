@@ -1,6 +1,6 @@
 # Prática de Consultas SQL (AdventureWorks)
 
-Repositório criado para registrar minha evolução em SQL utilizando o banco de dados AdventureWorks.
+Repositório contendo scripts e consultas SQL desenvolvidos para prática de manipulação, filtragem, agregação e cruzamento de dados relacionais.
 
 ## Conteúdos estudados
 
