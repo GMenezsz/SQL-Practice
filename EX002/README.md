@@ -1,6 +1,6 @@
 # Prática de Consultas SQL (AdventureWorks)
  
-Estudos de SQL Server utilizando o banco AdventureWorks.
+Repositório contendo scripts e consultas SQL desenvolvidos para prática de manipulação, filtragem, agregação e cruzamento de dados relacionais.
  
 ## Conceitos praticados
  
