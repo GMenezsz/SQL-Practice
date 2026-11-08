@@ -1,4 +1,4 @@
-# 📚 Estudos de SQL
+# Prática de Consultas SQL (AdventureWorks)
 
 Repositório criado para registrar minha evolução em SQL utilizando o banco de dados AdventureWorks.
 
