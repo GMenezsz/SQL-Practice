@@ -1,4 +1,4 @@
-# 📚  SQL Studies - AdventureWorks
+# Prática de Consultas SQL (AdventureWorks)
  
 Estudos de SQL Server utilizando o banco AdventureWorks.
  
