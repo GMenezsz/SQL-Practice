@@ -10,7 +10,7 @@ SELECT count(*)
 FROM person.Person;
 
 -- Quantos cargos diferentes existem.
-SELECT count(DISTINCT JobTitle)
+SELECT count(distinct(JobTitle))
 FROM HumanResources.Employee;
 
 -- Cruzamento de tabelas
