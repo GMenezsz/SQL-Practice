@@ -1,57 +1,41 @@
+Prática de Consultas SQL (AdventureWorks)
 
-Exercícios de Consultas SQL - Banco AdventureWorks
+Repositório criado para registrar minha evolução em SQL utilizando o banco de dados AdventureWorks.
 
- Conteúdo dos Exercícios
+Conteúdos estudados
 
-O script aborda os seguintes conceitos de consulta:
+SELECT
 
-Uso de TOP e ORDER BY (ordenação e limitação de resultados)
+TOP
 
-Filtragem com o operador BETWEEN (e NOT BETWEEN)
+WHERE
 
-Filtragem com o operador IN
+ORDER BY (ASC / DESC)
 
- Descrição das Consultas
+BETWEEN / NOT BETWEEN
 
-1. Top 10 Produtos Mais Caros (EX001)
+IN
 
-Retorna os 10 produtos de maior valor na tabela de produtos, ordenados do preço mais alto para o mais baixo.
+Exercícios realizados
 
-SELECT TOP 10 ProductID, Name, ListPrice
-FROM Production.Product
-ORDER BY ListPrice DESC;
+Listagem dos 10 produtos mais caros
 
-2. Produtos com ID entre 1 e 4 (EX002)
+Seleção dos primeiros produtos ordenados por ID
 
-Busca o ID, nome e código dos 4 primeiros produtos ordenados de forma crescente pelo ProductID.
+Filtragem de produtos por faixa de preço exclusiva (NOT BETWEEN)
 
-SELECT TOP 4 ProductID, Name, ProductNumber
-FROM Production.Product
-ORDER BY ProductID ASC;
+Busca de funcionários contratados em um período específico (BETWEEN)
 
-3. Produtos Fora da Faixa de Preço (Uso do NOT BETWEEN)
+Consulta de dados de pessoas através de IDs específicos (IN)
 
-Seleciona todos os produtos cujo preço não está entre $1000 e $1500.
+Aprendizados
 
-SELECT *
-FROM Production.Product
-WHERE ListPrice NOT BETWEEN 1000 AND 1500;
+Uso do TOP para limitar a quantidade de registros retornados
 
-4. Funcionários Contratados em um Período (Uso do BETWEEN com Datas)
+Ordenação de resultados crescentes e decrescentes com ORDER BY
 
-Filtra os funcionários contratados especificamente durante o ano de 2009 (entre 01/01/2009 e 01/01/2010), ordenando pela data de contratação.
+Filtragem de dados em intervalos usando o operador BETWEEN e negação com NOT BETWEEN
 
-SELECT *
-FROM HumanResources.Employee
-WHERE HireDate BETWEEN '2009/01/01' AND '2010/01/01'
-ORDER BY HireDate;
+Filtragem de registros a partir de uma lista de valores predefinidos com o operador IN
 
-5. Busca de Pessoas por IDs Específicos (Uso do IN)
-
-Recupera as informações das pessoas cujos IDs (BusinessEntityID) correspondem aos valores 2, 7 ou 13.
-
-SELECT *
-FROM Person.Person
-WHERE BusinessEntityID IN (2, 7, 13);
-
-Banco de Dados: AdventureWorks (Schemas: Production, HumanResources, Person)
+Filtragem e manipulação de datas no formato YYYY/MM/DD
